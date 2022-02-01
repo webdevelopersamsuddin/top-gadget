@@ -5,3 +5,27 @@ body{
 .navbar img{
   width: 70%;
 }
+
+.container{
+  margin-bottom: 40px;
+}
+
+.carousel-img{
+  width: 80%;
+}
+
+.carousel-indicators [data-bs-target] {
+  
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color:chartreuse;
+}
+
+.buy-now-btn{
+  border-style: none;
+  background-image: linear-gradient(to bottom, #c56cf0 0%, #cd84f1 100%);
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
