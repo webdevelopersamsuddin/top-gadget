@@ -7,7 +7,7 @@ body{
 }
 
 .container{
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   padding: 10px;
 }
 
@@ -75,6 +75,10 @@ h1{
 
 }
 
+.phones img{
+width: 100%;
+}
+
 .card-footer{
   border-top: none;
   background: #fff;
@@ -86,5 +90,28 @@ h1{
 
 .product-price{
   margin-bottom: 20px;
+}
+
+.categories-heading{
+  text-align: center;
+  padding-top: 50px;
+}
+
+#category{
+  height: 600px;
+  
+}
+
+.cat-3 img{
+  width: 90%;
+  
+}
+
+footer{
+  text-align: center;
+}
+
+.cat-3{
+  padding-left: 100px;
 }
 
