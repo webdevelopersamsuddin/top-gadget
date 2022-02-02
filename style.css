@@ -7,7 +7,8 @@ body{
 }
 
 .container{
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+  padding: 10px;
 }
 
 .carousel-img{
@@ -16,16 +17,74 @@ body{
 
 .carousel-indicators [data-bs-target] {
   
-  width: 10px;
-  height: 10px;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
-  background-color:chartreuse;
+  background-color:#fff;
 }
 
 .buy-now-btn{
   border-style: none;
-  background-image: linear-gradient(to bottom, #c56cf0 0%, #cd84f1 100%);
-  padding: 5px 20px;
-  border-radius: 5px;
+  /* background-image: linear-gradient(to bottom, #c56cf0 0%, #cd84f1 100%); */
+  padding: 8px 20px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 400;
+  cursor: pointer;
+  background-color: #3d3d3d;
+}
+
+
+.carousel{
+  background-image: url(images/banners/banner-bg-3.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+}
+
+.carousel .col-md-5{
+  background-image: url(images/banners/banner-bg-01.png);
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+   
+}
+
+.btn-icon{
+  margin-left: 5px;
+}
+
+p{
+  color: gray;
+}
+
+h1{
+  color: #3d3d3d;
+}
+
+.product-category{
+ margin-bottom: 50px;
+}
+
+.see-all{
+  color: tomato;
+  font-weight: 600;
+}
+
+.product{
+  text-align: center;
+
+}
+
+.card-footer{
+  border-top: none;
+  background: #fff;
+}
+
+.card{
+  border: none;
+}
+
+.product-price{
+  margin-bottom: 20px;
 }
 
