@@ -69,7 +69,7 @@ h1{
 
 
 .see-all{
-  color: tomato;
+  color: #EE5A24;
   font-weight: 600;
   cursor: pointer;
 }
@@ -114,7 +114,7 @@ h1{
   content: '';
   height: 5px;
   width: 8%;
-  background-color: coral;
+  background-color: #EE5A24;
   position: absolute;
   left: calc(50% -4%);
   bottom: -10px;
