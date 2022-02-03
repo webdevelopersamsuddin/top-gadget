@@ -11,6 +11,20 @@ body{
   padding: 10px;
 }
 
+.carousel{
+  background-image: url(images/banners/banner-bg-3.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+}
+
+.carousel .col-md-5{
+  background-image: url(images/banners/banner-bg-01.png);
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+   
+}
+
 .carousel-img{
   width: 80%;
 }
@@ -34,84 +48,99 @@ body{
   background-color: #3d3d3d;
 }
 
-
-.carousel{
-  background-image: url(images/banners/banner-bg-3.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
-
-}
-
-.carousel .col-md-5{
-  background-image: url(images/banners/banner-bg-01.png);
-  background-position-y: bottom;
-  background-repeat: no-repeat;
-   
-}
-
 .btn-icon{
   margin-left: 5px;
 }
+
 
 p{
   color: gray;
 }
 
+
 h1{
   color: #3d3d3d;
 }
+
 
 .product-category{
  margin-bottom: 50px;
 }
 
+
 .see-all{
   color: tomato;
   font-weight: 600;
+  cursor: pointer;
 }
+
+
+.card{
+  border: none;
+}
+
 
 .product{
   text-align: center;
-
 }
+
 
 .phones img{
-width: 100%;
+  width: 100%;
+  }
+
+
+.product-price{
+  margin-bottom: 20px;
 }
+
 
 .card-footer{
   border-top: none;
   background: #fff;
 }
 
-.card{
-  border: none;
-}
 
-.product-price{
-  margin-bottom: 20px;
-}
-
-.categories-heading{
+.underline{
+  display: flex;
+  justify-content: center;
+  position: relative;
   text-align: center;
   padding-top: 50px;
-}
-
-#category{
-  height: 600px;
   
 }
 
-.cat-3 img{
-  width: 90%;
+.underline::after{
+  content: '';
+  height: 5px;
+  width: 8%;
+  background-color: coral;
+  position: absolute;
+  left: calc(50% -4%);
+  bottom: -10px;
   
+}
+
+
+.cat-bag, .cat-beauty, .cat-shoes{
+  cursor: pointer;
+}
+
+.category{
+  margin-top: 100px;
+}
+
+.category img{
+  width: 100%;
+}
+#shopping{
+  width: 80%;
 }
 
 footer{
   text-align: center;
-}
+} 
 
-.cat-3{
-  padding-left: 100px;
-}
+
+
 
